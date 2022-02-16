@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 55%;
+  height: auto;
+
+  margin: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #364459;
+}
+header {
+  /* background-color: rgb(49, 63, 75); */
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+
+.input-section {
+  text-align: center;
+  /* background-color: rgb(255, 255, 255); */
+  padding: 10px;
+}
+.input-section input[type="text"] {
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+}
+.input-section input[type="submit"] {
+  width: auto;
+  height: 40px;
+  padding: 8px;
+}
+.task-section {
+  display: flex;
+  justify-content: left;
+}
+h2 {
+  padding: 10px;
+
+  color: white;
+  border-radius: 10px;
+}
+.incomplete-task {
+  width: 50%;
+  margin: 5px;
+}
+.complete-task {
+  width: 50%;
+  margin: 5px;
+}
+.incomplete-list {
+  padding: 5px;
+}
+.complete-list {
+  padding: 5px;
+}
+.list {
+  list-style: none;
+
+  margin: 5px;
+  color: orange;
+  display: block;
+  font-size: large;
+  box-sizing: border-box;
+  height: auto;
+}
+.list-item {
+  display: inline-block;
+  font-size: x-large;
+}
+.incomplete-list .list input[type="checkbox"] {
+  margin: 5px;
+  width: 30px;
+}
+.complete-list .list button {
+  float: right;
+  background-color: #72717175;
+  color: white;
+  padding: 5px;
+  border: none;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.complete-list .list button:hover {
+  background-color: #3d4044;
+  color: white;
+}

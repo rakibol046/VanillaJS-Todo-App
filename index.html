@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Daily Task</h1>
+      </header>
+      <div class="body">
+        <section class="input-section">
+          <form action="">
+            <input type="text" placeholder="Write your task" required />
+            <input type="submit" value="Add Task" id="taskBtn" />
+          </form>
+        </section>
+        <section class="task-section">
+          <div class="incomplete-task">
+            <h2>Incomplete Task</h2>
+            <ul class="incomplete-list">
+              <div class="list">
+                <input type="checkbox" name="" id="" />
+                <li class="list-item">Networking</li>
+              </div>
+              <hr />
+              <div class="list">
+                <input type="checkbox" name="" id="" />
+                <li class="list-item">English</li>
+              </div>
+              <hr />
+              <div class="list">
+                <input type="checkbox" name="" id="" />
+                <li class="list-item">Math</li>
+              </div>
+            </ul>
+          </div>
+          <div class="complete-task">
+            <h2>complete Task</h2>
+            <ul class="complete-list">
+              <div class="list">
+                <li class="list-item">Economics</li>
+                <button class="deleteBtn">Delete</button>
+              </div>
+              <hr />
+              <div class="list">
+                <li class="list-item">Computer Graphics</li>
+                <button class="deleteBtn">Delete</button>
+              </div>
+              <hr />
+              <div class="list">
+                <li class="list-item">Database</li>
+                <button class="deleteBtn">Delete</button>
+              </div>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
